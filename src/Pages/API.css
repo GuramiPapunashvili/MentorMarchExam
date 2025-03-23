@@ -1,0 +1,45 @@
+.APIMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+}
+.bigBoy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3{
+    color: white;
+    font-size: x-large;
+}
+input{
+    background-color: #A4B3B6;
+    height: 25px;
+    border-radius: 15px;
+}
+.Submit, button{
+    background-color: #A4B3B6;
+    border-radius: 15px;
+    height: 30px;
+    width: 75px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+@media(max-width: 260px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .Submit{
+        width: 180px;
+    }
+}
